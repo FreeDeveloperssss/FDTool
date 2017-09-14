@@ -16,6 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UILabel *lab = [[UILabel alloc] initWithFrame:self.view.bounds];
+    lab.numberOfLines = 0;
+    lab.font = [UIFont systemFontOfSize:40];
+    lab.text = @"西亮大傻吊!!!!!";
+    lab.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lab];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
