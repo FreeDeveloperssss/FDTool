@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /*smx原来是三门峡*/
     // Do any additional setup after loading the view, typically from a nib.
 }
 
