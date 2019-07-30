@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B202F0C22F043960047BB64 /* UIView+FDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F0B22F043960047BB64 /* UIView+FDFrame.m */; };
+		7B202F0F22F0443A0047BB64 /* UIView+FDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F0E22F0443A0047BB64 /* UIView+FDUtils.m */; };
+		7B202F1222F047DE0047BB64 /* UIImage+FDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F1122F047DE0047BB64 /* UIImage+FDUtils.m */; };
+		7B202F1522F048600047BB64 /* UIButton+FDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F1422F048600047BB64 /* UIButton+FDUtils.m */; };
+		7B202F1B22F04A110047BB64 /* NSString+FDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F1A22F04A110047BB64 /* NSString+FDUtils.m */; };
+		7B202F2322F04AB10047BB64 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F1D22F04AB10047BB64 /* NSDictionary+NilSafe.m */; };
+		7B202F2422F04AB10047BB64 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F1F22F04AB10047BB64 /* NSNull+Safe.m */; };
+		7B202F2522F04AB10047BB64 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B202F2222F04AB10047BB64 /* NSArray+Safe.m */; };
 		7BF5BF6F1F6A282000503226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5BF6E1F6A282000503226 /* main.m */; };
 		7BF5BF721F6A282000503226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5BF711F6A282000503226 /* AppDelegate.m */; };
 		7BF5BF751F6A282000503226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5BF741F6A282000503226 /* ViewController.m */; };
@@ -33,6 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B202F0A22F043960047BB64 /* UIView+FDFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FDFrame.h"; sourceTree = "<group>"; };
+		7B202F0B22F043960047BB64 /* UIView+FDFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDFrame.m"; sourceTree = "<group>"; };
+		7B202F0D22F0443A0047BB64 /* UIView+FDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FDUtils.h"; sourceTree = "<group>"; };
+		7B202F0E22F0443A0047BB64 /* UIView+FDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDUtils.m"; sourceTree = "<group>"; };
+		7B202F1022F047DE0047BB64 /* UIImage+FDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FDUtils.h"; sourceTree = "<group>"; };
+		7B202F1122F047DE0047BB64 /* UIImage+FDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FDUtils.m"; sourceTree = "<group>"; };
+		7B202F1322F048600047BB64 /* UIButton+FDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FDUtils.h"; sourceTree = "<group>"; };
+		7B202F1422F048600047BB64 /* UIButton+FDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FDUtils.m"; sourceTree = "<group>"; };
+		7B202F1922F04A110047BB64 /* NSString+FDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FDUtils.h"; sourceTree = "<group>"; };
+		7B202F1A22F04A110047BB64 /* NSString+FDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDUtils.m"; sourceTree = "<group>"; };
+		7B202F1D22F04AB10047BB64 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		7B202F1E22F04AB10047BB64 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		7B202F1F22F04AB10047BB64 /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
+		7B202F2022F04AB10047BB64 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		7B202F2122F04AB10047BB64 /* NSNull+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
+		7B202F2222F04AB10047BB64 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		7BF5BF6A1F6A282000503226 /* FDTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF5BF6E1F6A282000503226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BF5BF701F6A282000503226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +98,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B202F0722F043530047BB64 /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+				7B202F0822F043530047BB64 /* UIKit */,
+				7B202F0922F043530047BB64 /* NSObject */,
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		7B202F0822F043530047BB64 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B202F0A22F043960047BB64 /* UIView+FDFrame.h */,
+				7B202F0B22F043960047BB64 /* UIView+FDFrame.m */,
+				7B202F0D22F0443A0047BB64 /* UIView+FDUtils.h */,
+				7B202F0E22F0443A0047BB64 /* UIView+FDUtils.m */,
+				7B202F1022F047DE0047BB64 /* UIImage+FDUtils.h */,
+				7B202F1122F047DE0047BB64 /* UIImage+FDUtils.m */,
+				7B202F1322F048600047BB64 /* UIButton+FDUtils.h */,
+				7B202F1422F048600047BB64 /* UIButton+FDUtils.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7B202F0922F043530047BB64 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				7B202F1C22F04AB10047BB64 /* FDSafe */,
+				7B202F1722F049560047BB64 /* NSArray */,
+				7B202F1622F049560047BB64 /* NSDictionary */,
+				7B202F1822F049560047BB64 /* NSString */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		7B202F1622F049560047BB64 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		7B202F1722F049560047BB64 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		7B202F1822F049560047BB64 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				7B202F1922F04A110047BB64 /* NSString+FDUtils.h */,
+				7B202F1A22F04A110047BB64 /* NSString+FDUtils.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		7B202F1C22F04AB10047BB64 /* FDSafe */ = {
+			isa = PBXGroup;
+			children = (
+				7B202F2022F04AB10047BB64 /* NSDictionary+NilSafe.h */,
+				7B202F1D22F04AB10047BB64 /* NSDictionary+NilSafe.m */,
+				7B202F1E22F04AB10047BB64 /* NSArray+Safe.h */,
+				7B202F2222F04AB10047BB64 /* NSArray+Safe.m */,
+				7B202F2122F04AB10047BB64 /* NSNull+Safe.h */,
+				7B202F1F22F04AB10047BB64 /* NSNull+Safe.m */,
+			);
+			path = FDSafe;
+			sourceTree = "<group>";
+		};
 		7BF5BF611F6A282000503226 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +192,7 @@
 		7BF5BF6C1F6A282000503226 /* FDTool */ = {
 			isa = PBXGroup;
 			children = (
+				7B202F0722F043530047BB64 /* Categray */,
 				7BF5BF701F6A282000503226 /* AppDelegate.h */,
 				7BF5BF711F6A282000503226 /* AppDelegate.m */,
 				7BF5BF731F6A282000503226 /* ViewController.h */,
@@ -267,9 +363,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B202F2422F04AB10047BB64 /* NSNull+Safe.m in Sources */,
+				7B202F0C22F043960047BB64 /* UIView+FDFrame.m in Sources */,
+				7B202F2322F04AB10047BB64 /* NSDictionary+NilSafe.m in Sources */,
 				7BF5BF751F6A282000503226 /* ViewController.m in Sources */,
 				7BF5BF721F6A282000503226 /* AppDelegate.m in Sources */,
+				7B202F1B22F04A110047BB64 /* NSString+FDUtils.m in Sources */,
+				7B202F1522F048600047BB64 /* UIButton+FDUtils.m in Sources */,
+				7B202F2522F04AB10047BB64 /* NSArray+Safe.m in Sources */,
+				7B202F1222F047DE0047BB64 /* UIImage+FDUtils.m in Sources */,
 				7BF5BF6F1F6A282000503226 /* main.m in Sources */,
+				7B202F0F22F0443A0047BB64 /* UIView+FDUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +594,7 @@
 				7BF5BF991F6A282100503226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF5BF9A1F6A282100503226 /* Build configuration list for PBXNativeTarget "FDToolTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +603,7 @@
 				7BF5BF9C1F6A282100503226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF5BF9D1F6A282100503226 /* Build configuration list for PBXNativeTarget "FDToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +612,7 @@
 				7BF5BF9F1F6A282100503226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
